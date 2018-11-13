@@ -1,0 +1,373 @@
+find | head
+
+Find and list all files on your current 
+directory.
+
+apt search [query]
+
+to find a package
+
+locate [query]
+
+find all path names contains a pharse
+
+locate [file]
+
+find all files with filename
+
+which [command]
+
+find the path of an exexutable
+
+grep pattern [files]
+
+searching for pattern in files
+
+find / -atime 40
+
+to find all the files, which are accessed 
+40 days back
+
+find / -cmin -60
+
+find change file in last 1 hour
+
+find / -mmin -60
+
+find modified files in last 1 hour
+
+find ~ -empty
+
+find all empty files in home directory
+
+find /root -name FindCommandExamples.txt
+
+FindCommandExamples.txt in a current 
+working directory.
+
+find /tmp | head
+
+Find all the files under /tmp directory. It 
+lists out all files by default.
+
+find / -iname findcommandexamples.txt
+
+Find all the files whose name is 
+FindCommandExamples.txt and contains both 
+capital and small letters in / directory.
+
+find . -type f -name "*.php"
+
+Find all php files in a directory.
+
+find . -type f -perm 0777 -print
+
+Find all the files whose permissions are 
+777.
+
+find . -type f ! -perm 777 | head
+
+Find all the files without permission 777.
+
+find . -perm 0644 | head
+
+Find all the SGID bit files whose 
+permissions set to 644.
+
+find / -perm 0551
+
+Find all the Sticky Bit set files whose 
+permission are 551.
+
+find / -perm /u=r | head
+
+Find all Read Only files
+
+find / -type f -perm 0777 -print -exec 
+chmod 644 {} \;
+
+Find all 777 permission files and use chmod 
+command to set permissions to 644.
+
+find / -user root | head
+
+To find all files that belongs to user root 
+under / directory.
+
+find / -group root | head
+
+To find all files that belongs to group 
+root under / directory.
+
+find / -user root -iname "*.txt" | head
+
+To find all .txt files of user root under / 
+directory.
+
+find / -mtime 50
+
+To find all the files which are modified 50 
+days back.
+
+find / -mtime +50 -mtime -100 | head
+
+To find all the files which are modified 
+more than 50 days back and less than 100 
+days.
+
+find / -cmin -60 | head
+
+To find all the files which are changed in 
+last 1 hour.
+
+find / -mmin -60
+
+To find all the files which are modified in 
+last 1 hour
+
+find / -size 15M
+
+To find all 15MB files, use.
+
+find / -size +50M -size -100M
+
+To find all the files which are greater 
+than 50MB and less than 100MB.
+
+find / -size +100M -exec rm -rf {} \;
+
+To find all 100MB files and delete them 
+using one single command.
+
+find / -type f -name *.mp3 -size +10M -exec 
+rm {} \;
+
+Find all .mp3 files with more than 10MB and 
+delete them using one single command.
+
+touch [file name]
+
+to create a file
+
+mkdir [name]
+
+to create a directory / folder
+
+echo " your text " > [name]
+
+create a text file write your words
+
+tail -f [file name]
+
+output the contents of file as it grows
+
+less text_file
+
+view a text file one screen at a time
+
+ln -s [file name] link
+
+create a symbolic link to file
+
+mv [file1] [file2]
+
+rename or move with rename name is'A' to 
+rename'B'
+
+more [file name]
+
+output the contents of file
+
+head [file name]
+
+output the first 10 line of file
+
+chmod
+
+used to change the permissions
+
+chmod +x [filename]
+
+used to give permission(make ececutable) to 
+a file,script like .py .sh .rb
+
+chmod 771 [file name]
+
+set file permission
+
+chmod 777 [fiename]
+
+give executable permissin to a file
+
+chmod 777 *
+
+give executable permission to all files
+
+chmod +x *
+
+set file permissions to all files,
+
+du
+
+Display directory space usage
+
+df
+
+display Disk Usages
+
+cal
+
+it show calender
+
+cat /proc/meminfo
+
+shows memory information.
+
+w
+
+Display, who is currently online
+
+cat /proc/cpuinfo
+
+shows cpu information
+
+cat /proc/version
+
+shows Information about Linux System
+
+fingure username
+
+shows information about a user
+
+whoami
+
+shows your login name
+
+uname -a
+
+used to display Kernal Information
+
+date
+
+show the current date & time
+
+uptime
+
+shows the system current uptime.
+
+man command
+
+shows manual a command
+
+whereis app
+
+shows possible location for an App
+
+which app
+
+shows which App will be Run by Default
+
+free
+
+Display Memory and swap usage.
+
+man command
+
+shows manual a command
+
+kill
+
+send signal to process
+
+kill [PID]
+
+This sends the TERM signal to the 
+process.The TERM signal tells the process 
+to please terminate.
+
+kill -l
+
+list all of the signals that are posssible 
+to send with kill
+
+lspci
+
+shows PCI Devices
+
+lsusb
+
+shows USB Devices
+
+lsblk
+
+block devices in a tree-like format
+
+curl ifconfig.me
+
+to display external ip address
+
+cat /var/log/boot.log
+
+Bootlog information
+
+reset
+
+salvage a borked terminal
+
+man ascii
+
+quick access to the ascii table
+
+getconf LONG_BIT
+
+32 bits or 64 nits?
+
+lsof -i
+
+watch network service activity in real-time
+
+echo "words" > name.sh
+
+lsof -P -i -n
+
+show apps that use internet connection at 
+the moment
+
+nc -v -l 80 < file.ext
+
+shareing file through http 80 port
+
+vim -x
+
+add password protection to a file your 
+editing in vim
+
+man hier
+
+show file system hierarchy
+
+fuser -k filename
+
+kills a process that is locking a file
+
+cat /etc/issue
+
+display which distro is installed
+
+date -d@1234567890
+
+convert seconds to humn readble format
+
+curl wttr.in/india
+
+nice weather forecast on your shell
+
+ls -d */
+
+list only the directories
+
+script
+
+make a log of a terminal session
+
+

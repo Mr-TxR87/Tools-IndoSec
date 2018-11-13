@@ -1,0 +1,73 @@
+1) clear
+
+clear the terminal
+
+2) reset
+
+reset the terminal
+
+3) history
+
+list of recent commands
+
+4) pwd
+
+It shows your current working directory
+
+5) ps
+
+it shows the running process on machine
+
+6) ls
+
+used to print the directory files
+
+7) uname -m
+
+it shows your device architecture
+
+8) cal
+
+display calender
+
+9) curl ifconfig.me
+
+to display your public ip address
+
+10) exit
+
+exit from terminal
+
+11) ifconfig
+
+network interface and local ip addresss
+
+12) cat file
+
+to diplay a file
+
+13) cd [directory]
+
+go to directory
+
+14) apt install [packageName]
+
+To install any package
+
+15) kill [pid]
+
+kill process with id
+
+16) nano [file]
+
+edit file with nano text editor
+
+17) chmod 771 [fileName]
+
+set file permission
+
+18) cd ..
+
+change to parent directory
+
+

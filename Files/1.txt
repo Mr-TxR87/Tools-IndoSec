@@ -1,0 +1,91 @@
+1) ifconfig
+
+shows configuration a network interface.
+
+2) ifconfig
+
+for check your local ip,mac, or display the 
+current network interface information
+
+3) ifconfig eth0
+
+used to view the network settings on the 
+interface eth0
+
+4) fig -a
+
+display the configuration of all 
+interfaces,both active and inactive
+
+5) whois [host]
+
+Get basic information of Domain
+
+6) telnet [ip address] [port]
+
+telnet connection
+
+7) curl ifconfig.me
+
+shows your public ip > first install it 
+.apt install curl
+
+8) dig [ip address]
+
+DNS lookup
+
+9) wget file
+
+Download File first install package
+
+10) ping [host]
+
+to ping host ip and shows results
+
+11) arp
+
+check network card & show IP Adress.
+
+12) host
+
+Display specific server
+
+13) netstat
+
+Review Network connection & open sockets
+
+14) netstat -L or Lsof - i
+
+List open Sockets
+
+15) nslookup [host]
+
+use to find out DNS related query
+
+16) tracerout [host]
+
+Display number of hops & response time to 
+get to a remote system or web site.
+
+17) system-config-network
+
+To configure network settings and you will 
+get nice Graphical User interface(GUI)
+
+18) scp
+
+copies file, over a source
+
+19) sslscan [host]
+
+to scan all ssl vulnerability of website
+
+20) dhclient -r
+
+release ip and display a new one from DHCP
+
+21) lsof -i
+
+List open sockets
+
+

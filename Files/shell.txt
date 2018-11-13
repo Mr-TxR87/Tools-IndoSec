@@ -1,0 +1,59 @@
+
+intitle:"IndoXploit" filetype:php 
+intitle:"IndoXploit" intext:"public_html" 
+filetype:php
+intitle:"IndoXploit" intext:"mass deface" 
+filetype:php
+intitle:"IndoXploit" intext:"mass delete" 
+filetype:php
+intitle:"IndoXploit" intext:"jumping" 
+filetype:php
+intitle:"IndoXploit" intext:"config" 
+filetype:php
+intitle:"IndoXploit" intext:"config" 
+filetype:php
+intitle:"IndoXploit" intext:"fake root" 
+filetype:php
+intitle:"IndoXploit" intext:"auto edit 
+user" filetype:php
+intitle:"IndoXploit" intext:"Auto Edit 
+Title WordPress" filetype:php
+intitle:"IndoXploit" intext:"WordPress Auto 
+Deface" filetype:php
+intitle:"IndoXploit" intext:"WordPress Auto 
+Deface V.2" filetype:php
+intitle:"IndoXploit" intext:"CPanel/FTP 
+Auto Deface" filetype:php
+intitle:"IndoXploit" intext:"cpanel crack" 
+filetype:php
+intitle:"IndoXploit" intext:"Adminer" 
+filetype:php
+intitle:"IndoXploit" intext:"SMTP Grabber" 
+filetype:php
+intitle:"IndoXploit" intext:"Zone-h" 
+filetype:php
+intitle:"IndoXploit" intext:"CGI Telnet" 
+filetype:php
+intitle:"IndoXploit" intext:"network" 
+filetype:php
+intitle:"IndoXploit" intext:"K-RDP Shell " 
+filetype:php
+intitle:"IndoXploit" intext:"newfile | 
+newfolder" filetype:php
+inurl:"/wp-content/" intitle:"IndoXploit" 
+filetype:php
+inurl:"/wp-content/" intitle:"b374k" 
+filetype:php
+inurl:"/wp-content/" intitle:"b374k m1n1" 
+filetype:php
+inurl:"/wp-content/" intitle:"Shell" 
+filetype:php
+inurl:"/wp-content/" intitle:"Stupidc0de" 
+filetype:php
+intitle:"1n73ction" filetype:php 
+intext:"Cpanel Cracker" filetype:php
+intext:"Current DIR: /home/" filetype:php
+intext:"IndoXploit" filetype:php
+
+# IndoXploit Bisa di ubah selera shell yang 
+paling orang suka :)

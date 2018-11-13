@@ -1,0 +1,236 @@
+cd
+
+change directory
+
+cd /
+
+change to root directory
+
+cd -
+
+move one directory back from where you are 
+now
+
+cd ~
+
+move to users home directory from anywhere
+
+cd ..
+
+change current directory to parent 
+directory
+
+cd --
+
+show last working directory from where we 
+moved.
+
+cp
+
+Means copy,used to copy any files,folders
+
+cp [file1 name] [new file2 name]
+
+used to copy and rename file1 to file2 name
+
+cp help
+
+It shows the use of cp (copy) command
+
+cp -f
+
+Force copy by removeing the destination 
+files if needed
+
+cp -v
+
+Used to prints informative message
+
+cp -u
+
+used to copy when source is newer than dest
+
+cp -R
+
+used to copy any directory (including hiden 
+files)
+
+cp -L
+
+used to follow symbolic links
+
+cp -l
+
+Link files instead of copy
+
+cp -a
+
+Archive files
+
+cp -n
+
+no file overwrite
+
+mv [filename]
+
+means move,used to move any files,folders
+
+mv -v
+
+to move any directory (folders)
+
+mv -u
+
+update - move when source is newer than 
+destination
+
+mv [file1 name] [new file2 name]
+
+used to move or rename file1 one to file2
+
+mv -i
+
+interactive prompt before overwrite
+
+mv -f
+
+force move by overwriting destination files 
+without prompt
+
+ls
+
+list current directory / list folder 
+contents
+
+ls --version
+
+to check the version of ls command
+
+ls -n
+
+to display UID and GID directories.
+
+ls -lh
+
+it shows sizes in human readable format
+
+ls -F
+
+used to add the '/' character at the each 
+directory
+
+ls -r
+
+used to display files and directories in 
+reverse order.
+
+ls -ltr
+
+used to show latest modified directory or 
+file date as last
+
+ls -i
+
+Display number of file or Directory
+
+ls help
+
+it shows how to use ls command
+
+ls -l
+
+to show file or 
+directory,size,modified,date & time,owner 
+of file,permissions
+
+ls -a
+
+list all files including hidden files
+
+ls -R
+
+show recursively list of sub-directories
+
+ls -al
+
+formatted listing with hidden files
+
+cat [file name]
+
+to Display file Information
+
+apt show [query]
+
+view package Information
+
+echo [file name]
+
+to Display Text files
+
+cat
+
+used to Display Text files
+
+nano [file name]
+
+to Display and edit Text files
+
+apt install [package name]
+
+to install package from repository
+
+apt update
+
+to update list of packages means update 
+kali linux
+
+apt upgrade
+
+to upgrade list of packages means upgrade 
+kali linux
+
+wget [url]
+
+to download file/site
+
+curl -LO [url]
+
+to download any script or site
+
+git clone [url]
+
+to clone tools and scripts from github
+
+apt search [query]
+
+to find a package
+
+apt show [packageName]
+
+view package information
+
+rm
+
+used to remove or delets files
+
+rm [filename]
+
+remove Text files
+
+apt remove [packageName]
+
+to uninstall/remove a package
+
+rmdir [dir name]
+
+remove a directory
+
+rm -rf [directoryName]
+
+used to force remove a directory(folder)
+
+rm -f [Filename]
+
+Remove/Delets a file
+
+
